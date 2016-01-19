@@ -22,7 +22,7 @@ express: {
 // https://github.com/gruntjs/grunt-contrib-watch
 watch: {
     all: {
-            files: '**/*.html'.'**/*.css',
+            files: ['**/*.html','**/*.css'],
             options: {
                 livereload: true
         }
